@@ -1,0 +1,32 @@
+Approach:
+1.My approach towards this problem was simple I first imputed all the NAN values in 
+columns with less than 30% NAN values.
+2.Secondly i converted all the categorical columns into dummy data to use them for 
+prediction and dropped the columns not useful.
+3.Then i tried fitting a few models and found RandomForestRegressor as the best fit
+
+
+Feature Engineering:
+1. Model used RandomForestRegressor
+2. Performance measure - mean squared log error
+3. The following columns were used for prediction
+Artist Reputation
+Height
+Width
+Weight
+Price Of Sculpture
+Base Shipping Price
+Working Class
+intern_Yes
+install_Yes
+express_Yes
+fragile_Yes
+material_Brass
+material_Bronze
+material_Clay
+material_Marble
+material_Stone
+material_Wood
+
+Tools used:
+Jupyter Noteook
